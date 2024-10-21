@@ -1,0 +1,16 @@
+html,body
+{
+    width: auto;
+    height: auto;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#map 
+{
+    height: 500px;
+    width: 100%;
+}
