@@ -39,7 +39,7 @@ const socketIo = require('socket.io');
 
 const app = express();
 const server = http.createServer(app);
-const io = socketIo(server);
+const io = require('socket.io')(server); 
 
 app.use(express.static('public')); // Serve static files from 'public' folder
 
